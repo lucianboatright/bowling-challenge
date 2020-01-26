@@ -10,9 +10,9 @@ module.exports = function(config) {
 
     reporters: ['progress'],
 
-    browsers: ['FirefoxHeadless', 'FirefoxNightlyHeadless']
+    browsers: ['FirefoxHeadless']
   })
 }
 
 
-// 'FirefoxDeveloperHeadless', 'FirefoxAuroraHeadless'
+// 'FirefoxDeveloperHeadless', 'FirefoxAuroraHeadless', 'FirefoxNightlyHeadless'

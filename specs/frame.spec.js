@@ -10,7 +10,7 @@ describe ('Bowling', function(){
   it('test that score is added to frame', function(){
     var frame = new Frame();
 
-    frame.add(7);
+    frame.bowl(7);
 
     expect(frame.takeScore()).toBe(7);
   })
